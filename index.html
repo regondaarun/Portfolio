@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <!-- 
+    - primary meta tags
+  -->
+  <title>My Portfolio</title>
+
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="./assets/font/font.css">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <span class="line"></span>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <p>ARUN</p>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#project" class="navbar-link" data-nav-link>Projects</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <button class="nav-open-btn btn:hover" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <div class="hero text-center" id="home">
+        <div class="container">
+
+          <div class="banner-outline has-after">
+
+            <div class="hero-banner img-holder has-after" style="--width: 500; --height: 680;" data-tilt>
+              <img src="./assets/images/pic1.jpg" width="500" height="680" alt="Drew Hays" class="img-cover">
+            </div>
+
+
+
+          </div>
+
+          <div class="hero-content">
+
+            <h2 class="h1 title">Arun Kumar Regonda</h2>
+            <h3> Software Engineer | Full Stack Developer | MS CS in
+              California State University, Long Beach</h3>
+
+            <div class="wrapper">
+              <a href="./assets/resume/Arun_Kumar_Regonda.pdf" target="_blank" download="ArunKumarResume.pdf"
+                class="btn btn:hover">
+                <span class="span">Download Resume</span>
+
+                <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about-me" id="about">
+        <div class="container">
+
+          <div class="tab-container">
+
+            <ul class="tab-btn-list">
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6 active" data-tab-btn="about">About Me</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="skillset">Skillset</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="exhibition">Certificates</button>
+              </li>
+
+            </ul>
+
+            <div class="tab-content active" data-tab-content="about">
+              <div class="grid-list">
+
+                <figure class="about-banner img-holder" style="--width: ; --height: ;" data-tilt>
+                  <img src="./assets/images/55.jpg" width="570" height="420" loading="lazy" alt="about banner"
+                    class="img-cover">
+                </figure>
+
+                <div class="about-content">
+
+                  <h2 class="h4 title section-title">
+                    A little something about me.
+                  </h2>
+
+                  <p class="section-text" style="text-align: justify;">
+                    Passionate and results-driven <strong style="color: #007bff; text-shadow: 0 0 5px #007bff;">computer
+                      science professional</strong> with hands-on experience in <strong
+                      style="color: #007bff; text-shadow: 0 0 5px #007bff;">application development</strong>, <strong
+                      style="color: #007bff; text-shadow: 0 0 5px #007bff;">data migration</strong>, and <strong
+                      style="color: #007bff; text-shadow: 0 0 5px #007bff;">full-stack development</strong>. Currently
+                    pursuing a <strong style="color: #007bff; text-shadow: 0 0 5px #007bff;">Master's degree in Computer
+                      Science</strong> at <strong style="color: #007bff; text-shadow: 0 0 5px #007bff;">California State
+                      University Long Beach</strong>, with an expected graduation in May 2024. During my tenure at
+                    <strong style="color: #007bff; text-shadow: 0 0 5px #007bff;">Accenture</strong>, I honed my skills
+                    in <strong style="color: #007bff; text-shadow: 0 0 5px #007bff;">SharePoint migration</strong>,
+                    <strong style="color: #007bff; text-shadow: 0 0 5px #007bff;">ETL tools</strong>, and <strong
+                      style="color: #007bff; text-shadow: 0 0 5px #007bff;">Tableau reporting</strong>, contributing to
+                    a seamless transition to <strong style="color: #007bff; text-shadow: 0 0 5px #007bff;">cloud
+                      environments</strong> and significantly reducing downtime and system instability. At <strong
+                      style="color: #007bff; text-shadow: 0 0 5px #007bff;">Infosys</strong>, I developed a
+                    user-friendly <strong style="color: #007bff; text-shadow: 0 0 5px #007bff;">web application</strong>
+                    utilizing the <strong style="color: #007bff; text-shadow: 0 0 5px #007bff;">MEAN Stack</strong> to
+                    streamline hospital appointment bookings. I led a collaborative effort with the testing team to
+                    deploy rigorous testing methodologies, ensuring a 20% reduction in bugs. By integrating <strong
+                      style="color: #007bff; text-shadow: 0 0 5px #007bff;">user-centric design principles</strong>, I
+                    achieved a 25% improvement in overall usability metrics.
+                  </p>
+                  <p class="section-text" style="text-align: justify;">
+                    Skilled in a wide array of programming languages and technologies including <strong
+                      style="color: #007bff; text-shadow: 0 0 5px #007bff;">Java</strong>, <strong
+                      style="color: #007bff; text-shadow: 0 0 5px #007bff;">Python</strong>, <strong
+                      style="color: #007bff; text-shadow: 0 0 5px #007bff;">JavaScript</strong>, and various databases,
+                    I thrive in dynamic environments where I can leverage my expertise to drive technological
+                    advancements and solve complex challenges. With certifications in <strong
+                      style="color: #007bff; text-shadow: 0 0 5px #007bff;">AutomationAnywhere RPA</strong> and <strong
+                      style="color: #007bff; text-shadow: 0 0 5px #007bff;">ServiceNow administration</strong>, I am
+                    equipped to tackle diverse projects and contribute effectively to any team. Eager to continue
+                    learning and growing in the field of computer science, I am committed to leveraging my knowledge and
+                    experience to make meaningful contributions to innovative projects and initiatives. Connect with me
+                    to explore opportunities for collaboration and growth in the ever-evolving world of technology.
+                  </p>
+
+
+
+
+                  <ul class="about-list">
+
+                    <li class="about-item">
+                      <p class="list-title">Name</p>
+
+                      <span class="span title h5">Arun Kumar Regonda</span>
+                    </li>
+
+                    <li class="about-item">
+                      <a href="tel:+15622289878">
+                        <p class="list-title">Phone Number</p>
+
+                        <span class="span title h5">(562) 228-9878</span>
+                      </a>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Social Network</p>
+
+                      <div class="social-list">
+
+                        <a href="mailto:regondaarunkumar@gmail.com" class="social-link h6" title="Facebook">Mail</a>
+                        <a href="https://www.linkedin.com/in/regondaarun/" target="_blank" class="social-link h6"
+                          title="Facebook">linkein</a>
+                        <a href="https://github.com/regondaarun" target="_blank" class="social-link h6"
+                          title="Behance">Git</a>
+
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="tab-content" data-tab-content="skillset">
+              <div class="icon-container">
+                <div class="icon-item">
+                  <i class="fas fa-code"></i>
+                  <p>C</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fas fa-code"></i>
+                  <p>C++</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fab fa-java"></i>
+                  <p>Java</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fab fa-js"></i>
+                  <p>JavaScript</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fab fa-js-square"></i>
+                  <p>TypeScript</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fab fa-python"></i>
+                  <p>Python</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fas fa-database"></i>
+                  <p>SQL</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fas fa-database"></i>
+                  <p>NoSQL</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fab fa-html5"></i>
+                  <p>HTML</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fab fa-css3-alt"></i>
+                  <p>CSS</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fas fa-database"></i>
+                  <p>MySQL</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fas fa-database"></i>
+                  <p>Oracle</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fas fa-leaf"></i>
+                  <p>MongoDB</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fab fa-node-js"></i>
+                  <p>Node.js</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fab fa-angular"></i>
+                  <p>Angular</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fab fa-aws"></i>
+                  <p>Amazon Web Services (AWS)</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fas fa-tools"></i>
+                  <p>Maven</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fas fa-leaf"></i>
+                  <p>Spring Boot</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fas fa-database"></i>
+                  <p>Hibernate</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fas fa-sync-alt"></i>
+                  <p>Kafka</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fas fa-exchange-alt"></i>
+                  <p>REST Web Services</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fas fa-cogs"></i>
+                  <p>ServiceNow</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fas fa-chart-bar"></i>
+                  <p>Tableau</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fas fa-vial"></i>
+                  <p>Postman</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fab fa-microsoft"></i>
+                  <p>SharePoint Migration Tool</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fas fa-fire"></i>
+                  <p>Firebase</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fas fa-cloud"></i>
+                  <p>Netlify</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fab fa-git"></i>
+                  <p>Git</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fab fa-github"></i>
+                  <p>GitHub</p>
+                </div>                
+                <div class="icon-item">
+                  <i class="fas fa-tools"></i>
+                  <p>Informatica</p>
+                </div>
+                <div class="icon-item">
+                  <i class="fas fa-cogs"></i>
+                  <p>ServiceNow</p>
+                </div>
+                
+              </div>
+            </div>
+
+
+            <div class="tab-content" data-tab-content="exhibition">
+              <ul class="grid-list">
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder"
+                      style="--width: 376; --height: 200; background-color: bisque;" data-tilt>
+                      <img src="./assets/images/RPA3.avif" style="object-fit: contain;" width="376" height="200"
+                        loading="lazy" alt="image" class="img-cover">
+                    </figure>
+
+                    <div class="img-title">Automation Anywhere Certified Essentials RPA Professional</div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 200; " data-tilt>
+                      <img src="./assets/images/C2.jpeg" width="376" height="200" loading="lazy" alt="video"
+                        class="img-cover">
+                    </figure>
+                    <div class="img-title">Automation Anywhere Certified Advanced RPA Professional</div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 200;" data-tilt>
+                      <img src="./assets/images/c4.png" style="object-fit:fill;" width="376" height="200" loading="lazy"
+                        alt="music" class="img-cover">
+
+                    </figure>
+
+                    <div class="img-title">Cisco - CCNAv7: Introduction to Networks</div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 200;" data-tilt>
+                      <img src="./assets/images/c3.jpeg" style="object-fit:fill;" width="376" height="200"
+                        loading="lazy" alt="image" class="img-cover">
+                    </figure>
+                    <div class="img-title">ServiceNow Certified System Administrator</div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 200;" data-tilt>
+                      <img src="./assets/images/c6.jpeg" style="object-fit:fill;" width="376" height="200"
+                        loading="lazy" alt="image" class="img-cover">
+                    </figure>
+
+                    <div class="img-title">Wipro Digital Skills Readiness Program</div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="exhibition-card">
+
+                    <figure class="card-banner img-holder" style="--width: 376; --height: 200;" data-tilt>
+                      <img src="./assets/images/c7.png" style="object-fit:fill;" width="376" height="200" loading="lazy"
+                        alt="image" class="img-cover">
+                    </figure>
+                    <div class="img-title">SimpliLearn - CompTIA Security+ 501 </div>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- end for this section -->
+
+
+
+
+
+      <section class="section experience" aria-label="experience" id="experience">
+        <div class="container">
+
+          <h2 class="title h2 section-title">Professional Experience</h2>
+
+          <ul class="experience-list">
+
+            <!-- Experience Item 1 -->
+            <li class="experience-item">
+              <div class="experience-card">
+
+                <div class="card-header">
+                  <h3 class="title h3">Application Development Associate</h3>
+                  <span class="company-name">Accenture</span>
+                  <span class="duration">June 2021 - June 2022</span>
+                </div>
+
+                <div class="card-content">
+                  <ul class="responsibilities">
+                    <br>
+                    <li>Developed and maintained single-page applications (SPA) using Angular, Node.js, and MongoDB,
+                      enhancing application performance and scalability.</li>
+                    <li>Built and integrated complex forms using Angular Reactive Forms and Template-Driven Forms,
+                      reducing form errors by 40% through robust server-side validation.</li>
+                    <li>Improved user satisfaction ratings by 20% by utilizing Angular Material and Bootstrap to create
+                      responsive, user-friendly interfaces.</li>
+                    <li>Built scalable RESTful web services with Node.js and Express.js, seamlessly connecting to
+                      Angular front-end applications.</li>
+                    <li>Orchestrated Agile ceremonies, including sprint planning and retrospectives, enhancing team
+                      productivity by 15% and decreasing sprint delays by 20%.</li>
+                    <br>
+                  </ul>
+                </div>
+
+              </div>
+            </li>
+
+            <!-- Experience Item 2 -->
+            <li class="experience-item">
+              <div class="experience-card">
+                <div class="card-header">
+                  <h3 class="title h3">Full Stack Developer Intern</h3>
+                  <span class="company-name">Infosys</span>
+                  <span class="duration">Feb 2021 - May 2021</span>
+                </div>
+
+                <div class="card-content">
+                  <ul class="responsibilities">
+                    <br>
+                    <li>Engineered a full-stack web application for scheduling and information management using the MEAN
+                      stack.</li>
+                    <li>Created a user-friendly interface, integrating front-end and back-end components for seamless
+                      functionality.</li>
+                    <li>Collaborated with the testing team and executed cross-device compatibility testing, resulting in
+                      a 40% increase in user satisfaction.</li>
+                    <li>Integrated timely notifications and information updates, leading to a 40% improvement in event
+                      participation and a 25% increase in user engagement.</li>
+                  </ul>
+                </div>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #PROJECTS
+      -->
+
+      <section class="section project" aria-label="my latest projects" id="project">
+        <h2 class="title h2 section-title text-center">
+          Let's have a look at my Projects<br><br>
+        </h2>
+        <ul class="slider-list">
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/p1.jpg" style="object-fit: contain;" width="1000" height="763" loading="lazy"
+                  alt="Project" class="img-cover">
+
+                <a href="https://github.com/regondaarun/Tune-Therapy/tree/main" target="_blank" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <!-- <p class="card-subtitle">Web, Product</p> -->
+
+                <h3 class="title h3">
+                  <a href="https://github.com/regondaarun/Tune-Therapy/tree/main" target="_blank"
+                    class="card-title">Tune Therapy</a>
+
+                </h3>
+                <p>The project created is a mood assessment software using NLP techniques.
+                  It started with playlist analysis using TF-IDF for preprocessing and extracting insights.
+                  LDA was then used for topic modeling. A research paper summarizing the project's findings was
+                  submitted to AI conferences.
+                  A mood prediction model, trained on a dataset of 500,000 songs, achieved 93% test accuracy, enabling
+                  personalized music
+                  recommendations for improved user experience.</p>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project2.png" style="object-fit: contain;" width="1000" height="763"
+                  loading="lazy" alt="Project" class="img-cover">
+
+                <a href="https://github.com/regondaarun/DeliDash" target="_blank" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+
+
+                <h3 class="title h3">
+                  <a href="https://github.com/regondaarun/DeliDash" target="_blank" class="card-title">DeliDash</a>
+                </h3>
+                <P>Developed a Java-based food delivery system using 100% Object-Oriented Programming (OOP) principles.
+                  Designed a scalable Oracle database, improving data retrieval speed by 30%.
+                  Implemented features like user distinction and order caching, increasing user satisfaction by 60%
+                  through effective use of OOP principles</P>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/agro.jpg" style="object-fit: contain;" width="1000" height="763"
+                  loading="lazy" alt="Project" class="img-cover">
+
+                <a href="https://github.com/regondaarun/Planning-Secure-Consumption-Food-Safety-Using-Blockchain"
+                  target="_blank" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+
+                <h3 class="title h3">
+                  <a href="https://github.com/regondaarun/Planning-Secure-Consumption-Food-Safety-Using-Blockchain"
+                    target="_blank" class="card-title"> Agrochain</a>
+                </h3>
+                <P>This Project is done by using blockchain technology to trace agricultural supply chains from
+                  pre-production to consumption.
+                  My proposed model leverages a permissioned blockchain to enhance security and transparency, involving
+                  stakeholders such as
+                  farmers, logistics, consumers, and validators. I use smart contracts to ensure data authenticity and
+                  immutability, providing a tamper-proof tracking mechanism for agricultural products.</P>
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+        <br>
+        <br>
+        <ul class="slider-list">
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width:1000; --height: 763;">
+                <img src="./assets/images/cart.png" style="object-fit: contain" width="1000" height="763" loading="lazy"
+                  alt="Project" class="img-cover">
+
+                <a href="https://github.com/regondaarun/Add-to-Cart" target="_blank" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <!-- <p class="card-subtitle">Web, Product</p> -->
+
+                <h3 class="title h3">SwiftCart</a>
+
+                </h3>
+                <p>Our family shopping app simplifies household shopping by allowing users to log in with a shared
+                  family account. From home, users can add items to a dynamic shopping cart that updates in real-time.
+                  This ensures everyone can see what's needed before heading out. Using Firebase for secure login and
+                  data storage, the app promotes efficient shopping and coordination
+                  among family members, minimizing oversights and enhancing organization.</p>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/picker.jpg" style="object-fit: contain;" width="1000" height="763"
+                  loading="lazy" alt="Project" class="img-cover">
+
+                <a href="https://github.com/regondaarun/Picker" target="_blank" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+
+
+                <h3 class="title h3">
+                  <a href="https://github.com/regondaarun/Picker" target="_blank" class="card-title">Picker</a>
+                </h3>
+                <p>
+                  The primary purpose of this application is to provide users with a convenient and efficient way
+                  to save, organize, and access important URLs or "leads" they encounter while browsing the web. Instead
+                  of
+                  relying on browser bookmarks, which can become cluttered and hard to manage, this application offers a
+                  dedicated space for saving URLs related to specific projects, tasks, or interests. By storing URLs in
+                  a
+                  single location and displaying them in an organized list, users can quickly find and revisit
+                  important links without sifting through their entire browser history or bookmarks folder.
+                </p>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/attendance_management.png" style="object-fit: contain;" width="1000"
+                  height="763" loading="lazy" alt="Project" class="img-cover">
+
+                <a href="#" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+
+
+                <h3 class="title h3">
+                  <a href="#" class="card-title">Attendance Management System</a>
+                </h3>
+                <p>
+                  This project efficiently manages student attendance for various events,
+                  offering significant advantages such as streamlined attendance tracking, easy access to attendance
+                  records, and reduced paperwork.
+                  The system ensures electronic records are easily accessible and maintainable, enhancing the overall
+                  efficiency
+                  of attendance management.
+                </p>
+              </div>
+
+            </div>
+          </li>
+
+
+
+        </ul>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" aria-label="contact me" id="contact">
+        <div class="container">
+
+          <h2 class="title h2 section-title">Get In Touch</h2>
+
+          <div class="contact-content">
+            <form id="contact-form" class="contact-form">
+              <input type="text" name="user_name" placeholder="Full name" autocomplete="off" required
+                class="input-field">
+              <input type="email" name="user_email" placeholder="Email address" autocomplete="off" required
+                class="input-field">
+              <input type="tel" name="user_pno" placeholder="Phone" autocomplete="off" class="input-field">
+              <textarea name="message" placeholder="Enter message" required class="input-field"></textarea>
+              <button type="submit" class="btn btn:hover">
+                <span class="span">Send</span>
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </button>
+            </form>
+
+
+
+
+
+
+
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d85015.40113605894!2d-118.17430350739369!3d33.80710085146957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2cae84099d759%3A0xa1003afac42a8faa!2sLong%20Beach%2C%20CA!5e0!3m2!1sen!2sus!4v1717836416640!5m2!1sen!2sus"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <ul class="contact-list">
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-1.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <span class="title h6"> (562)228-9878 </span>
+
+                  <!-- <span class="title h6">789 (569) 126 35</span> -->
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-2.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <address class="title h6">
+                    5050 E Garford Street,
+                    Long Beach, CA 90815
+                  </address>
+                </div>
+
+              </li>
+
+              <li class="contact-item">
+
+                <div class="item-icon">
+                  <img src="./assets/images/contact-icon-3.png" width="50" height="50" loading="lazy"
+                    alt="contact icon">
+                </div>
+
+                <div>
+                  <span class="title h6">regondaarunkumar@gmail.com</span>
+
+                  <!-- <span class="title h6">jobs@drew.com</span> -->
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        Yov'e Reached the End about me if you want to know more drop a text
+      </p>
+
+      <a href="#top" class="back-top-btn">
+        <span class="span">Back To Top</span>
+
+        <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+      </a>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+  <div class="cursor-dot" data-cursor></div>
+  <div class="cursor-outline" data-cursor></div>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+</body>
+
+</html>
